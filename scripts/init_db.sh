@@ -24,7 +24,7 @@ fi
 if [[ -z "${SKIP_DOCKER}" ]]
 then
   
-  docker rm -f postgres 
+  #docker rm -f postgres 
   #launch postgres using docker
   CONTAINER_NAME="postgres"
   docker run \
